@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desafio.css">
+    <title>Desafio</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <p class="cabecalho_titulo"> Página de verificação</p>
+    </header>
+
+    <script>
+        var nome = window.prompt('qual seu nome? ')
+        var idade = Number.parseInt(window.prompt('Qual é a sua idade? '))
+
+        if (idade < 18){
+            document.write('Oi Anaju,o acesso foi negado pois você tem idade menor que 18 anos, devido a esse fator você não poderá acessar a página.')
+
+        }
+
+        else{
+            window.alert('Olá Anaju, seu acesso foi permitido, seja bem vinda.')
+            document.write(`O seu nome é: ${nome}`)
+            document.write("<br>")
+            document.write(`Sua idade é: ${idade}`)
+            document.write
+        }
+    </script>
+</body>
+</html>
